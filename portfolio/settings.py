@@ -27,15 +27,7 @@ SECRET_KEY = 'django-insecure-_gnj@g0cszeia^)oa8_v(0xl97je%%ido)!&*32vmz_h@eo_j_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', 'dannywanyoike.pythonanywhere.com','127.0.0.1']
-
-MESSAGE_TAGS = {
-    messages.DEBUG: 'alert-info',
-    messages.INFO: 'alert-info',
-    messages.SUCCESS: 'alert-success',
-    messages.WARNING: 'alert-warning',
-    messages.ERROR: 'alert-danger',
-}
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh','dannywanyoike.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
